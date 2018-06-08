@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { gql } from 'apollo-boost';
-import { grahpql } from 'react-apollo';
+import { graphql } from 'react-apollo';
 
 // define graphql queries
 const getAuthorsQuery = gql`
