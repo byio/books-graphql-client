@@ -40,7 +40,7 @@ class BookList extends Component {
         <ul id="book-list">
           {this.displayBooks()}
         </ul>
-        <BookDetails/>
+        <BookDetails bookId={this.state.selected}/>
       </div>
     );
   }
