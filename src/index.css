@@ -34,6 +34,11 @@ body {
   color: #00ffff;
 }
 
+#book-list li:hover {
+  background: #00ffff;
+  color: #262626;
+}
+
 /* add book form */
 form {
   background: rgba(0, 0, 0, 0.1);
