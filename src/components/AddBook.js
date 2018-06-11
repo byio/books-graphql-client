@@ -49,21 +49,21 @@ class AddBook extends Component {
     // console.log(`AddBook props: ${this.props}`);
     return (
       <form id="add-book" onSubmit={this.submitForm.bind(this)}>
-        <div>
+        <div className="field">
           <label>Book Title:</label>
           <input
             type="text"
             onChange={ (e) => this.setState({ name: e.target.value }) }
           />
         </div>
-        <div>
+        <div className="field">
           <label>Genre:</label>
           <input
             type="text"
             onChange={ (e) => this.setState({ genre: e.target.value }) }
           />
         </div>
-        <div>
+        <div className="field">
           <label>Author:</label>
           <select onChange={ (e) => this.setState({ authorId: e.target.value }) }>
             <option> -- Select Author -- </option>
