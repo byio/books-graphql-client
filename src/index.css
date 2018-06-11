@@ -39,6 +39,11 @@ body {
   color: #262626;
 }
 
+#book-list li:active {
+  background: none;
+  color: #fffafa;
+}
+
 /* add book form */
 form {
   background: rgba(0, 0, 0, 0.1);
