@@ -41,7 +41,7 @@ form {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 400px;
+  width: 300px;
 }
 
 form .field {
@@ -63,6 +63,7 @@ form select, form input {
 
 form select {
   appearance: none;
+  width: 140px;
 }
 
 form button {
